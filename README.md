@@ -13,6 +13,13 @@
 
 2. _Now_ use the GitHub GUI to "clone" this repository to your laptop
 
+## References
+For this exercise, you can get by with just the official GitHub.com [help site][https://help.github.com] open in a browser tab.
+
+If you're stuck somewhere, and you'd like a visual step-by-step guide for a certain task, or if there's some overarching concept you believe you're missing and just want a show-me-everthing-GitHub-can do type reference, there's [GitHub Guides](https://guides.github.com/).
+
+The [companion YouTube channel](http://www.youtube.com/user/GitHubGuides) has a lot of good material, too. The [GitHub and Git Foundations](www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-) play list is chock-full of bite-sized videos (~5 minutes apiece) that go over basic Git and GitHub tasks, although they're often command-line oriented.
+
 ## Activities
 
 - [ ] Have a look at the revision history in the GitHub GUI
