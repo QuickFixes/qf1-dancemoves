@@ -1,0 +1,24 @@
+body {
+  postition:relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+div.top-ten-list {
+  width: 800px;
+  margin: 1.5em auto;
+}
+
+.img-list > li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.img-list > li > img {
+  max-height: 100px;
+}
+
+
+
