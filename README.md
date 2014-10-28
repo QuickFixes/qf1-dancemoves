@@ -19,6 +19,13 @@
 ## References
 For this exercise, you can get by with just the official GitHub.com [help site](https://help.github.com) open in a browser tab.
 
+Here are direct links to help for the Windows and Mac clients. They're pretty memorable, right?
+
+* https://mac.github.com/help
+* https://windows.github.com/help
+
+The Mac guide is a bit more comprehensive at the moment (the Windows client hasn't been around as long), but there's a ["Quick Look" video](http://www.youtube.com/watch?v=YBbkvCrfDSo) on GitHub's YouTube channel that should be enough to get you rolling on Windows.
+
 If you're stuck somewhere, and you'd like a visual step-by-step guide for a certain task, or if there's some overarching concept you believe you're missing and just want a show-me-everthing-GitHub-can do type reference, there's [GitHub Guides](https://guides.github.com/).
 
 The [companion YouTube channel](http://www.youtube.com/user/GitHubGuides) has a lot of good material, too. The [GitHub and Git Foundations](www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-) play list is chock-full of bite-sized videos (~5 minutes apiece) that go over basic Git and GitHub tasks, although they're often command-line oriented.
@@ -56,9 +63,12 @@ Create an issue to track this feature request in your forked repository. Remembe
 ### GitHub flow - branching and pull requests
 Forking, branching, merging, then creating a pull request to discuss how to incorporate changes back into a central repository is what GitHub calls [the GitHub Flow](https://guides.github.com/introduction/flow/).
 
-- [ ] Use the GitHub GUI client a feature branch for a navigation sidebar. Think of a creative way to use it to navigate between the images or sections of the page. (_Hint_: `<a name="anchorname" ...>` and `<a href="#anchorname" ...>`)
-- [ ] Use the GitHub client to merge the feature branch back into `master`.
-- [ ] File a pull request against this repository and ask me to incorporate your sidebar feature.
+- [ ] Use the GitHub GUI client to [create a feature branch][macbranch] ([Windows][winbranch]) for a navigation sidebar. 
+    * Think of a creative way to use it to navigate between the images or sections of the page and implement the changes in `index.html` and `css/dancemoves.css`. (_Hint_: `<div id="anchorname" ...>` and `<a href="#anchorname" ...>`)
+- [ ] Commit the changes in your feature branch, then use the GitHub client to [merge the feature branch][macmerge] back into `master` (the main branch).
+    * You can actually delete this branch. You're done with it. This is a common thing to do in a Git workflow.
+- [ ] File a pull request against this repository ([QuickFixes/qf1-dancemoves][pullreq]; or [on GitHub.com][pullreqgithub]) and ask me to incorporate your sidebar feature.
+    * There's a big, green "New pull request" button that's hard to miss. It'll walk you through the process, for the most part, but just holler if you get stuck or have questions.
     * We'll have a discussion about the pull request on GitHub. (You'll get email notifications when people leave comments on your pull requests.) Maybe I'll ask you to change a thing or two before I accept the pull request.
     * **This is what GitHub means by social coding**
 
@@ -77,3 +87,10 @@ Forking, branching, merging, then creating a pull request to discuss how to inco
 [h-perms]: https://help.github.com/articles/permission-levels-for-an-organization-repository/
 [g-fork]: https://guides.github.com/activities/forking/index.html
 [ghpages]: https://help.github.com/articles/creating-project-pages-manually/
+[macbranch]: https://help.github.com/articles/branching-out/
+[winbranch]: https://help.github.com/articles/how-do-i-work-with-branches-in-github-for-windows/
+[macmerge]: https://help.github.com/articles/merging-branches/
+<!-- Not a typo. There isn't an article for Windows yet. -->
+[winmerge]: https://help.github.com/articles/merging-branches/
+[pullreq]: https://github.uc.edu/QuickFixes/qf1-dancemoves/pulls
+[pullreqgithub]: https://github.com/QuickFixes/qf1-dancemoves/pulls
