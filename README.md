@@ -28,7 +28,8 @@ The [companion YouTube channel](http://www.youtube.com/user/GitHubGuides) has a 
 - [ ] Make a few simple changes your own to `index.html` using a text editor. Commit them.
     * Use a good, descriptive commit message, but limit the summary line to 50 characters or less (points for style). You can use the "Description" field in the GUI if you need to provide more detail about the change.
 - [ ]  Push those changes to "origin" (your github.uc.edu/github.com fork).
-    * Look at the history and the "diffs" on GitHub.com and in the GUI client
+    * **The GitHub GUI calls this "Sync."** There's also a toggle that gives you the option to always "Commit and sync instantly." In Git parlance, that's a `git commit` and a `git push origin <branch>` all in one button press.<br>![commit and sync](assets/commit_and_sync.png)
+- [ ] Look at the history and the "diffs" on GitHub.com and in the GUI client
 - [ ] Find a friend. Visit their repository on github.uc.edu and file a pull request for them to merge your changes with theirs.
     * **Always commit your changes first, before you start something like this.** Your commit history doesn't have to be pretty for this project. You're still learning.
     * Take this slow and in steps. Ask one of the facilitators if you get stuck.
