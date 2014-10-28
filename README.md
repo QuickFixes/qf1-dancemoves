@@ -11,7 +11,8 @@
     * _Wait, but what good is cloning if I can never make changes?_
         * Maybe you just want to _use_ the software. Plenty of software projects (particularly stuff like [text editor plugins](https://github.com/vim-scripts "Plugins for the Vim editor") and [web development frameworks](https://github.com/twbs/bootstrap#quick-start "Twitter Bootstrap")) use Git as a means of distributing their software. You just `git clone` the project into a particular directory and BAM! If you wanted to _contribute_ to these projects, you'd [make a fork][g-fork]).
 
-2. _Now_ use the GitHub GUI to "clone" this repository to your laptop
+2. _Now_ use the GitHub GUI to "clone" this repository to your laptop. Right click on the repository name and choose "Open in Explorer" (Windows) or "Show in Finder" (OS X).
+    * Press <kbd>F4</kbd> in Windows Explorer or Command+click on the icon in the Finder title bar on a Mac. **This is where the GitHub client cloned your repository.** Remember where this is, because these are the files you'll be editing with your text editor.
 
 ## References
 For this exercise, you can get by with just the official GitHub.com [help site](https://help.github.com) open in a browser tab.
@@ -59,7 +60,7 @@ Forking, branching, merging, then creating a pull request to discuss how to inco
     * **This is what GitHub means by social coding**
 
 ### Onward and upward
-- [ ] How's your site looking? Wicket. Why not publish it to the real live InterWebs using [GitHub Pages][ghpages]?
+- [ ] How's your site looking? Wicked. Why not publish it to the real live InterWebs using [GitHub Pages][ghpages]?
 
 ## A list of everyone's favorite dance moves
 
