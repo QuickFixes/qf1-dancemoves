@@ -12,7 +12,7 @@
         * Maybe you just want to _use_ the software. Plenty of software projects (particularly stuff like [text editor plugins](https://github.com/vim-scripts "Plugins for the Vim editor") and [web development frameworks](https://github.com/twbs/bootstrap#quick-start "Twitter Bootstrap")) use Git as a means of distributing their software. You just `git clone` the project into a particular directory and BAM! If you wanted to _contribute_ to these projects, you'd [make a fork][g-fork]).
 
 2. _Now_ use the GitHub GUI to "clone" this repository to your laptop.
-3. Right click on the repository name and choose "Open in Explorer" (Windows) or "Show in Finder" (OS X).
+3. Right click on the repository name in the GUI and choose "Open in Explorer" (Windows) or "Show in Finder" (OS X).
     * Press <kbd>F4</kbd> in Windows Explorer or Command+click on the icon in the Finder title bar on a Mac. **This is where the GitHub client cloned your repository.** Remember where this is, because these are the files you'll be editing with your text editor.
     * The GitHub client will "notice" when you change files in this directory, and automatically "stage" them to be committed (what Git calls saving a version) or, optionally, committed and "pushed" back to the repository on GitHub.
 
