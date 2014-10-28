@@ -22,7 +22,7 @@ The [companion YouTube channel](http://www.youtube.com/user/GitHubGuides) has a 
 
 ## Activities
 
-### Things going write
+### Things going right
 - [ ] Have a look at the revision history for the repository you just forked in the GitHub GUI.
 - [ ] Make a few simple changes your own to `index.html` using a text editor. Commit them.
     * Use a good, descriptive commit message, but limit the summary line to 50 characters or less (points for style). You can use the "Description" field in the GUI if you need to provide more detail about the change.
@@ -31,15 +31,15 @@ The [companion YouTube channel](http://www.youtube.com/user/GitHubGuides) has a 
 - [ ] Find a friend. Visit their repository on github.uc.edu and file a pull request for them to merge your changes with theirs.
     * **Always commit your changes first, before you start something like this.** Your commit history doesn't have to be pretty for this project. You're still learning.
     * Take this slow and in steps. Ask one of the facilitators if you get stuck.
+- [ ] Process a classmate's pull request on GitHub
 
 ### Things going wrong
 Create a merge conflict, and then resolve it:
 
-- [ ] Make some changes to the **same line** in the same file using both the GitHub web site _and_ a text editor on your computer. Commit and push the local changes using the GitHub GUI.
-    * This will create a merge conflict because Git can't figure out which file contains the changes you want.
-    * Resolve the conflicts by removing the conflict markers (`>>>>`, `=====`, and `<<<<<`)
-    * Commit, then push again.
-- [ ] Process a classmate's pull request on GitHub
+- [ ] Make some changes to the **same line** in the same file [using the GitHub web site](https://help.github.com/articles/editing-files-in-your-repository) _and_ a text editor on your computer. Commit and push the local changes using the GitHub GUI.
+    * Usually Git is really smart about merging changes from both the remote and local ends, but this situation will create a merge conflict because Git can't figure out which file contains the changes you actually want.
+    * Resolve the conflicts by removing the conflict markers (`>>>>>`, `=====`, and `<<<<<`)
+    * Commit, then push again. A good commit message might be something like `Resolving merge conflict in index.html`.
 
 ### Dealing with changing requirements - tracking tasks and issues
 
@@ -65,9 +65,6 @@ Forking, branching, merging, then creating a pull request to discuss how to inco
 
 * Kevin: whatever that puppy-paws thing that Christopher Walken does in Fatboy Slim's
   _[Weapon of Choice](http://www.youtube.com/watch?v=XQ7z57qrZU8)_.
-
-
-
 
 
 <!-- footnote-style hyperlinks -->
